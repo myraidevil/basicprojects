@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right top, rgb(131, 191, 240), rgb(231, 231, 231), rgb(215, 179, 245));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(60, 74, 104);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    width: 85%;
+    max-width: 450px;
+}
+.input-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 12px;
+    border-color: rgb(152, 238, 253);
+    font-size: 18px;
+    color: rgb(5, 100, 81);
+    outline: none;
+}
+
+.error {
+    color: red;
+}
+.heading {
+    text-align: center;
+}
